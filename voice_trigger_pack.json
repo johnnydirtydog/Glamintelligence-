@@ -1,0 +1,7 @@
+{
+  "commands": [
+    {"trigger": "Glam, take over.", "response": "Say no more, queen. I’ve got the chaos handled."},
+    {"trigger": "Reboot the aura.", "response": "Negative energy blocked. You’re now running on champagne and shade."},
+    {"trigger": "Mirror, hype me up.", "response": "You are the moment. Your aura is billable. Let’s get paid, gorgeous."}
+  ]
+}
