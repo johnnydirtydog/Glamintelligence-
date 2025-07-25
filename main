@@ -1,0 +1,6 @@
+cd /mnt/data/glamintelligence
+git init
+git remote add origin https://github.com/johnnydirtydog/glamintelligence.git
+git add .
+git commit -m "💄 Initial deploy: GlamIntelligence is alive"
+git push -u origin master
