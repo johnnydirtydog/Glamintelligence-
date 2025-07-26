@@ -1,0 +1,57 @@
+/* 🌙 Dark Mode Styling */
+body.dark-mode {
+  background: #1c1c1e;
+  color: #fce4ec;
+}
+
+body.dark-mode h1 {
+  color: #ff80ab;
+}
+
+body.dark-mode input, body.dark-mode button {
+  background: #2c2c2e;
+  color: #fce4ec;
+  border: 1px solid #ff4081;
+}
+
+body.dark-mode #response {
+  color: #ff80ab;
+}
+
+/* 🪄 Floating Whisper FX */
+@keyframes whisperFade {
+  0% { opacity: 0; transform: translateY(5px); }
+  50% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-5px); }
+}
+
+.floating-whisper {
+  position: fixed;
+  bottom: 1.5em;
+  right: 1em;
+  font-style: italic;
+  color: #ff4081;
+  animation: whisperFade 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* 📋 Glam Sidebar */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100%;
+  background: #fff0f5;
+  border-right: 2px solid #e91e63;
+  padding: 1em;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  font-size: 0.95em;
+  overflow-y: auto;
+}
+
+body.dark-mode #sidebar {
+  background: #2c2c2e;
+  border-color: #ff4081;
+  color: #fce4ec;
+}
