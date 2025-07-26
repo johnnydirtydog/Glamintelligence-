@@ -1,0 +1,12 @@
+/* 🌪️ Dynamic Background Modes */
+body.velvet-mode {
+  background: radial-gradient(ellipse at center, #ffebee, #ec407a);
+}
+
+body.ceo-mode {
+  background: linear-gradient(to bottom, #212121, #424242);
+}
+
+body.soft-billionaire {
+  background: linear-gradient(to right, #f3e5f5, #e1bee7);
+}
